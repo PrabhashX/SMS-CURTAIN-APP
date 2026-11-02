@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ native launch splash before the animated Compose brand screen -->
+    <style name="Theme.SMSCurtains" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground">#183B36</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_curtains</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FBF8F3</item>
+        <item name="android:navigationBarColor">#FBF8F3</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
